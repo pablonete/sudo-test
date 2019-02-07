@@ -11,5 +11,5 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    sudo npm i -g gulp-cli@latest verbose/verb#dev verb-generate-readme lerna
+    npm i -g gulp-cli@latest verbose/verb#dev verb-generate-readme lerna
   displayName: 'sudo npm'
